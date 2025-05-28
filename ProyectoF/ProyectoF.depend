@@ -1,3 +1,23 @@
 # depslib dependency file v1.0
-1748449728 source:c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\src\usuarios.cpp
+1748450501 source:c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\src\usuarios.cpp
+
+1748450977 source:c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\src\seguridad.cpp
+	"seguridad.h"
+	"MenuGeneral.h"
+	<iostream>
+	<fstream>
+	<conio.h>
+	<limits>
+	<vector>
+
+1748450501 c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\include\seguridad.h
+	<fstream>
+	<vector>
+	<limits>
+	"usuarios.h"
+
+1748450501 c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\include\usuarios.h
+
+1748450501 c:\users\isaia\onedrive\escritorio\repositorios github\prototipoefp12025\proyectof\include\menugeneral.h
+	<iostream>
 

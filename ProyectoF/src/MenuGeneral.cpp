@@ -1,5 +1,6 @@
 #include "MenuGeneral.h"
-#include "bitacora.h"
+#include "Reportes.h"
+#include "seguridad.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -8,11 +9,10 @@
 #include<iomanip>
 #include "usuarios.h"
 using namespace std;
-bitacora Bitacora;
+Reportes Bitacora;
 Empleados mantenimiento;
-//codigo realizado por HERSON GIRON
-
-void MenuGeneral()::menu(string usuario)//Metodo de despliegue del menu
+seguridad Seguro;
+void MenuGeneral::menu(string usuario)//Metodo de despliegue del menu
 {
     int opciones;
     bool repetir = true;
@@ -39,13 +39,12 @@ void MenuGeneral()::menu(string usuario)//Metodo de despliegue del menu
             break;
         case 2:
             {
-             mantenimiento.mostrarMenuNomina(usuario); //Se llama al metodo mostrar menu nomina de la clase EMPLEADOS para mostrar
-             //el menu de procesos de empleados
+            Bitacora.desplegar(); //Se llama al metodo menu de la clase bitacora para mostrar el menu de la bitacora
             }
             break;
         case 3:
             {
-            Bitacora.menu(); //Se llama al metodo menu de la clase bitacora para mostrar el menu de la bitacora
+            Bitacora.menu();
             }
             break;
         case 4:

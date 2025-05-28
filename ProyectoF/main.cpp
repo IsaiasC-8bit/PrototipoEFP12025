@@ -3,7 +3,7 @@
 #include <limits>
 #include "MenuGeneral.h"
 #include "usuarios.h"
-#include "bitacora.h"
+#include "Reportes.h"
 #include "seguridad.h"
 //Realizado por Isaias Cedillo
 using namespace std;
@@ -13,7 +13,7 @@ int ingreso;
 int main()
 {
 seguridad seguridad1;//Objeto creado de clase sistema
-Opciones opciones;//Objeto creado de clases Opciones
+MenuGeneral opciones;//Objeto creado de clases Opciones
     int opcion;
 
     do {
@@ -64,7 +64,7 @@ Opciones opciones;//Objeto creado de clases Opciones
             cout << "Ingrese contrasenia maestra.." << endl;
             cin >> ingreso;
             if (ingreso == contrasenia) {
-                seguridad.registrarUsuario();
+                seguridad1.registrarUsuario();
             } else {
                 cout << "Contrasenia incorrecta..." << endl;
                 cout << "Regresando......." << endl;

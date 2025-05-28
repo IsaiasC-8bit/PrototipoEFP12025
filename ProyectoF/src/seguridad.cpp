@@ -6,7 +6,7 @@
 #include <limits>
 #include <vector>
 //Modificado por Roli Cedillo
-Opciones opcion; // Se crea un objeto global de la clase MenuGeneral
+MenuGeneral opcion; // Se crea un objeto global de la clase MenuGeneral
 
 seguridad::seguridad()
 {
