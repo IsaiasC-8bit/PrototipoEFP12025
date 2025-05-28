@@ -35,10 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/MenuGeneral.h" />
+		<Unit filename="include/Reportes.h" />
 		<Unit filename="include/seguridad.h" />
 		<Unit filename="include/usuarios.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/MenuGeneral.cpp" />
+		<Unit filename="src/Reportes.cpp" />
 		<Unit filename="src/seguridad.cpp" />
 		<Unit filename="src/usuarios.cpp" />
 		<Extensions />
